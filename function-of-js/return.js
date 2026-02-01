@@ -14,13 +14,16 @@
 // const outPut = myName(100);
 // console.log(outPut);
 
-function menuCard(num1, num2) {
-  const total = num1 + num2;
-  return total;
+// function menuCard(num1, num2) {
+//   const total = num1 + num2;
+//   return total;
+// }
+// // const price = menuCard(5, 80);
+// // console.log(menuCard(10,20));
+// function total(price1, price2) {
+//   return price1 + price2;
+// }
+// console.log(total(5, 8));
+function getMenu() {
+ console.log("Burger, Pizza, Pasta");
 }
-// const price = menuCard(5, 80);
-// console.log(menuCard(10,20));
-function total(price1, price2) {
-  return price1 + price2;
-}
-console.log(total(5, 8));
