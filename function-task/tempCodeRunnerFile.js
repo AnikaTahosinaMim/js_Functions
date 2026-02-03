@@ -1,1 +1,1 @@
-console.log(phnone);
+console.log(num);
