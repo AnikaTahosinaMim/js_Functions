@@ -1,4 +1,4 @@
-const menu = "javascript is fun to learn";
+const menu = " javascript is fun ";
 function manyThing(srt) {
   let charCount = 0;
   let vawelsCount = 0;
@@ -16,17 +16,15 @@ function manyThing(srt) {
         consonants++;
       }
     }
-  const word = num.trim().split(/\s+/);
-    if (num.trim() !== "") {
+  const word = menu.trim().split(" ");
       words = word.length;
-    }
   }
   // console.log(charCount);
   // return words;
   // return consonants;
   return {
-    speces: charCount,
-    letter: words,
+    Characters: charCount,
+    Word: words,
     vowels: vawelsCount,
     con: consonants,
   };
